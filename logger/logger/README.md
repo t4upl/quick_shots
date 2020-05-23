@@ -1,0 +1,1 @@
+This project shows how to configure log4j2 with springboot.
