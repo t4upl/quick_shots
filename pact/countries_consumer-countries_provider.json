@@ -1,0 +1,169 @@
+{
+  "provider": {
+    "name": "countries_provider"
+  },
+  "consumer": {
+    "name": "countries_consumer"
+  },
+  "interactions": [
+    {
+      "description": "get countries request",
+      "request": {
+        "method": "GET",
+        "path": "/countries"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": [
+          {
+            "capital": "Paris",
+            "establishedDate": "1999-01-20",
+            "name": "France",
+            "population": 123
+          }
+        ],
+        "matchingRules": {
+          "body": {
+            "$": {
+              "matchers": [
+                {
+                  "match": "type",
+                  "min": 0
+                }
+              ],
+              "combine": "AND"
+            },
+            "$[*].name": {
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ],
+              "combine": "AND"
+            },
+            "$[*].capital": {
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ],
+              "combine": "AND"
+            },
+            "$[*].population": {
+              "matchers": [
+                {
+                  "match": "number"
+                }
+              ],
+              "combine": "AND"
+            },
+            "$[*].establishedDate": {
+              "matchers": [
+                {
+                  "match": "date",
+                  "date": "yyyy-MM-dd"
+                }
+              ],
+              "combine": "AND"
+            }
+          }
+        }
+      },
+      "providerStates": [
+        {
+          "name": "countries not empty"
+        }
+      ]
+    },
+    {
+      "description": "get country with ID 1",
+      "request": {
+        "method": "GET",
+        "path": "/countries/1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "capital": "Paris",
+          "establishedDate": "1999-01-20",
+          "name": "France",
+          "population": 123
+        },
+        "matchingRules": {
+          "body": {
+            "$.name": {
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ],
+              "combine": "AND"
+            },
+            "$.capital": {
+              "matchers": [
+                {
+                  "match": "type"
+                }
+              ],
+              "combine": "AND"
+            },
+            "$.population": {
+              "matchers": [
+                {
+                  "match": "number"
+                }
+              ],
+              "combine": "AND"
+            },
+            "$.establishedDate": {
+              "matchers": [
+                {
+                  "match": "regex",
+                  "regex": "\\d{4}-[0-1]\\d-\\d{2}"
+                }
+              ],
+              "combine": "AND"
+            }
+          }
+        }
+      },
+      "providerStates": [
+        {
+          "name": "country with ID 1 exists"
+        }
+      ]
+    },
+    {
+      "description": "get country with ID 62",
+      "request": {
+        "method": "GET",
+        "path": "/countries/62"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "providerStates": [
+        {
+          "name": "country with ID 62 does not exists"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    },
+    "pact-jvm": {
+      "version": "4.1.7"
+    }
+  }
+}
