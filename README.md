@@ -6,6 +6,7 @@ Repo contains following projects:
 2. cancel - how to cancel running query using hibernate
 3. logger - log4j2 configuration
 4. nplusone - playground for playing wiht hibernate (n + 1 problem, entity grpah, L1 cache)
+5. pact - example of pact.io contract testing (both consumer and provider)
 
 Note:
 This repos are just to check out things out so they might be far from production quality.
