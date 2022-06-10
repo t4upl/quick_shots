@@ -7,6 +7,7 @@ Repo contains following projects:
 3. logger - log4j2 configuration
 4. nplusone - playground for playing wiht hibernate (n + 1 problem, entity grpah, L1 cache)
 5. pact - example of pact.io contract testing (both consumer and provider)
+6. mongo - spring project with mongo and spring data
 
 Note:
 This repos are just to check out things out so they might be far from production quality.
