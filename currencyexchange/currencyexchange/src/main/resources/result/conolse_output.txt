@@ -1,0 +1,212 @@
+--------------
+START
+--------------------------------
+Title: monthlyResult
+TemporalUnitName: MONTH
+Exchange:EUR_TO_PLN_KEY
+0: temporalUnitId: 2 value: 4.2921 delta: -0.0266
+1: temporalUnitId: 4 value: 4.2987 delta: -0.0200
+2: temporalUnitId: 1 value: 4.3187 delta: 0.0000
+3: temporalUnitId: 3 value: 4.3232 delta: 0.0045
+4: temporalUnitId: 8 value: 4.3283 delta: 0.0096
+5: temporalUnitId: 5 value: 4.3294 delta: 0.0107
+6: temporalUnitId: 6 value: 4.3335 delta: 0.0148
+7: temporalUnitId: 7 value: 4.3376 delta: 0.0189
+8: temporalUnitId: 10 value: 4.3463 delta: 0.0275
+9: temporalUnitId: 9 value: 4.3489 delta: 0.0301
+10: temporalUnitId: 12 value: 4.3489 delta: 0.0302
+11: temporalUnitId: 11 value: 4.3496 delta: 0.0309
+Exchange:USD_TO_PLN_KEY
+0: temporalUnitId: 2 value: 3.6232 delta: -0.0245
+1: temporalUnitId: 1 value: 3.6477 delta: 0.0000
+2: temporalUnitId: 4 value: 3.6662 delta: 0.0186
+3: temporalUnitId: 3 value: 3.6911 delta: 0.0434
+4: temporalUnitId: 5 value: 3.7011 delta: 0.0535
+5: temporalUnitId: 6 value: 3.7021 delta: 0.0545
+6: temporalUnitId: 8 value: 3.7070 delta: 0.0593
+7: temporalUnitId: 7 value: 3.7270 delta: 0.0793
+8: temporalUnitId: 9 value: 3.7288 delta: 0.0811
+9: temporalUnitId: 10 value: 3.7349 delta: 0.0872
+10: temporalUnitId: 12 value: 3.7484 delta: 0.1008
+11: temporalUnitId: 11 value: 3.7747 delta: 0.1270
+--------------------------------
+Title: dayOfWeekResult
+TemporalUnitName: DAY_OF_WEEK
+Exchange:EUR_TO_PLN_KEY
+0: temporalUnitId: 1 value: 4.3284 delta: 0.0000
+1: temporalUnitId: 5 value: 4.3297 delta: 0.0013
+2: temporalUnitId: 2 value: 4.3302 delta: 0.0018
+3: temporalUnitId: 4 value: 4.3307 delta: 0.0023
+4: temporalUnitId: 3 value: 4.3309 delta: 0.0025
+Exchange:USD_TO_PLN_KEY
+0: temporalUnitId: 1 value: 3.7010 delta: 0.0000
+1: temporalUnitId: 5 value: 3.7038 delta: 0.0028
+2: temporalUnitId: 2 value: 3.7055 delta: 0.0045
+3: temporalUnitId: 4 value: 3.7067 delta: 0.0057
+4: temporalUnitId: 3 value: 3.7079 delta: 0.0070
+--------------------------------
+Title: weekResult
+TemporalUnitName: WEEK
+Exchange:EUR_TO_PLN_KEY
+0: temporalUnitId: 15 value: 4.2789 delta: -0.0460 from: 10-04 to 20-04
+1: temporalUnitId: 7 value: 4.2892 delta: -0.0357 from: 13-02 to 19-02
+2: temporalUnitId: 6 value: 4.2923 delta: -0.0327 from: 06-02 to 12-02
+3: temporalUnitId: 8 value: 4.2939 delta: -0.0310 from: 20-02 to 26-02
+4: temporalUnitId: 5 value: 4.2988 delta: -0.0261 from: 30-01 to 05-02
+5: temporalUnitId: 14 value: 4.2988 delta: -0.0261 from: 02-04 to 13-04
+6: temporalUnitId: 16 value: 4.3000 delta: -0.0249 from: 17-04 to 27-04
+7: temporalUnitId: 9 value: 4.3081 delta: -0.0169 from: 27-02 to 05-03
+8: temporalUnitId: 23 value: 4.3132 delta: -0.0117 from: 04-06 to 15-06
+9: temporalUnitId: 31 value: 4.3149 delta: -0.0101 from: 30-07 to 10-08
+10: temporalUnitId: 13 value: 4.3165 delta: -0.0085 from: 26-03 to 04-04
+11: temporalUnitId: 11 value: 4.3169 delta: -0.0081 from: 12-03 to 19-03
+12: temporalUnitId: 10 value: 4.3173 delta: -0.0076 from: 05-03 to 12-03
+13: temporalUnitId: 32 value: 4.3177 delta: -0.0072 from: 06-08 to 17-08
+14: temporalUnitId: 18 value: 4.3182 delta: -0.0067 from: 30-04 to 11-05
+15: temporalUnitId: 2 value: 4.3202 delta: -0.0047 from: 09-01 to 15-01
+16: temporalUnitId: 4 value: 4.3207 delta: -0.0043 from: 23-01 to 29-01
+17: temporalUnitId: 17 value: 4.3213 delta: -0.0036 from: 24-04 to 04-05
+18: temporalUnitId: 22 value: 4.3238 delta: -0.0011 from: 28-05 to 08-06
+19: temporalUnitId: 3 value: 4.3244 delta: -0.0005 from: 16-01 to 22-01
+20: temporalUnitId: 1 value: 4.3249 delta: 0.0000 from: 02-01 to 08-01
+21: temporalUnitId: 30 value: 4.3264 delta: 0.0014 from: 23-07 to 03-08
+22: temporalUnitId: 12 value: 4.3276 delta: 0.0027 from: 19-03 to 26-03
+23: temporalUnitId: 21 value: 4.3293 delta: 0.0044 from: 21-05 to 01-06
+24: temporalUnitId: 33 value: 4.3296 delta: 0.0047 from: 13-08 to 24-08
+25: temporalUnitId: 19 value: 4.3300 delta: 0.0051 from: 07-05 to 18-05
+26: temporalUnitId: 29 value: 4.3302 delta: 0.0053 from: 16-07 to 27-07
+27: temporalUnitId: 37 value: 4.3340 delta: 0.0091 from: 10-09 to 21-09
+28: temporalUnitId: 24 value: 4.3341 delta: 0.0091 from: 11-06 to 22-06
+29: temporalUnitId: 20 value: 4.3353 delta: 0.0104 from: 14-05 to 25-05
+30: temporalUnitId: 34 value: 4.3388 delta: 0.0139 from: 20-08 to 31-08
+31: temporalUnitId: 50 value: 4.3395 delta: 0.0146 from: 10-12 to 21-12
+32: temporalUnitId: 36 value: 4.3396 delta: 0.0146 from: 03-09 to 14-09
+33: temporalUnitId: 41 value: 4.3441 delta: 0.0192 from: 08-10 to 19-10
+34: temporalUnitId: 51 value: 4.3445 delta: 0.0195 from: 17-12 to 28-12
+35: temporalUnitId: 45 value: 4.3447 delta: 0.0198 from: 05-11 to 16-11
+36: temporalUnitId: 25 value: 4.3448 delta: 0.0198 from: 18-06 to 29-06
+37: temporalUnitId: 35 value: 4.3454 delta: 0.0205 from: 27-08 to 07-09
+38: temporalUnitId: 44 value: 4.3458 delta: 0.0209 from: 29-10 to 09-11
+39: temporalUnitId: 48 value: 4.3459 delta: 0.0209 from: 26-11 to 07-12
+40: temporalUnitId: 49 value: 4.3463 delta: 0.0213 from: 03-12 to 14-12
+41: temporalUnitId: 28 value: 4.3466 delta: 0.0216 from: 09-07 to 20-07
+42: temporalUnitId: 38 value: 4.3482 delta: 0.0233 from: 17-09 to 28-09
+43: temporalUnitId: 40 value: 4.3493 delta: 0.0243 from: 01-10 to 12-10
+44: temporalUnitId: 47 value: 4.3502 delta: 0.0253 from: 19-11 to 30-11
+45: temporalUnitId: 42 value: 4.3511 delta: 0.0262 from: 15-10 to 26-10
+46: temporalUnitId: 26 value: 4.3524 delta: 0.0275 from: 25-06 to 06-07
+47: temporalUnitId: 27 value: 4.3550 delta: 0.0301 from: 02-07 to 13-07
+48: temporalUnitId: 43 value: 4.3570 delta: 0.0320 from: 22-10 to 02-11
+49: temporalUnitId: 46 value: 4.3578 delta: 0.0329 from: 12-11 to 23-11
+50: temporalUnitId: 52 value: 4.3617 delta: 0.0368 from: 24-12 to 31-12
+51: temporalUnitId: 39 value: 4.3640 delta: 0.0391 from: 24-09 to 05-10
+52: temporalUnitId: 53 value: 4.5597 delta: 0.2348 from: 31-12 to 31-12
+Exchange:USD_TO_PLN_KEY
+0: temporalUnitId: 6 value: 3.6159 delta: -0.0408 from: 06-02 to 12-02
+1: temporalUnitId: 5 value: 3.6200 delta: -0.0366 from: 30-01 to 05-02
+2: temporalUnitId: 7 value: 3.6219 delta: -0.0347 from: 13-02 to 19-02
+3: temporalUnitId: 15 value: 3.6287 delta: -0.0279 from: 10-04 to 20-04
+4: temporalUnitId: 8 value: 3.6360 delta: -0.0207 from: 20-02 to 26-02
+5: temporalUnitId: 2 value: 3.6516 delta: -0.0051 from: 09-01 to 15-01
+6: temporalUnitId: 4 value: 3.6549 delta: -0.0017 from: 23-01 to 29-01
+7: temporalUnitId: 3 value: 3.6566 delta: -0.0001 from: 16-01 to 22-01
+8: temporalUnitId: 1 value: 3.6567 delta: 0.0000 from: 02-01 to 08-01
+9: temporalUnitId: 9 value: 3.6620 delta: 0.0053 from: 27-02 to 05-03
+10: temporalUnitId: 23 value: 3.6647 delta: 0.0080 from: 04-06 to 15-06
+11: temporalUnitId: 18 value: 3.6716 delta: 0.0149 from: 30-04 to 11-05
+12: temporalUnitId: 17 value: 3.6757 delta: 0.0190 from: 24-04 to 04-05
+13: temporalUnitId: 10 value: 3.6809 delta: 0.0243 from: 05-03 to 12-03
+14: temporalUnitId: 16 value: 3.6817 delta: 0.0250 from: 17-04 to 27-04
+15: temporalUnitId: 14 value: 3.6825 delta: 0.0258 from: 02-04 to 13-04
+16: temporalUnitId: 11 value: 3.6832 delta: 0.0265 from: 12-03 to 19-03
+17: temporalUnitId: 12 value: 3.6877 delta: 0.0311 from: 19-03 to 26-03
+18: temporalUnitId: 31 value: 3.6940 delta: 0.0373 from: 30-07 to 10-08
+19: temporalUnitId: 32 value: 3.6940 delta: 0.0374 from: 06-08 to 17-08
+20: temporalUnitId: 22 value: 3.6942 delta: 0.0376 from: 28-05 to 08-06
+21: temporalUnitId: 13 value: 3.6959 delta: 0.0393 from: 26-03 to 04-04
+22: temporalUnitId: 37 value: 3.6963 delta: 0.0396 from: 10-09 to 21-09
+23: temporalUnitId: 24 value: 3.6986 delta: 0.0419 from: 11-06 to 22-06
+24: temporalUnitId: 19 value: 3.7019 delta: 0.0452 from: 07-05 to 18-05
+25: temporalUnitId: 33 value: 3.7088 delta: 0.0522 from: 13-08 to 24-08
+26: temporalUnitId: 34 value: 3.7099 delta: 0.0533 from: 20-08 to 31-08
+27: temporalUnitId: 20 value: 3.7125 delta: 0.0559 from: 14-05 to 25-05
+28: temporalUnitId: 30 value: 3.7128 delta: 0.0561 from: 23-07 to 03-08
+29: temporalUnitId: 21 value: 3.7132 delta: 0.0566 from: 21-05 to 01-06
+30: temporalUnitId: 25 value: 3.7142 delta: 0.0575 from: 18-06 to 29-06
+31: temporalUnitId: 36 value: 3.7142 delta: 0.0576 from: 03-09 to 14-09
+32: temporalUnitId: 53 value: 3.7158 delta: 0.0592 from: 31-12 to 31-12
+33: temporalUnitId: 35 value: 3.7192 delta: 0.0626 from: 27-08 to 07-09
+34: temporalUnitId: 38 value: 3.7233 delta: 0.0667 from: 17-09 to 28-09
+35: temporalUnitId: 26 value: 3.7289 delta: 0.0722 from: 25-06 to 06-07
+36: temporalUnitId: 29 value: 3.7305 delta: 0.0738 from: 16-07 to 27-07
+37: temporalUnitId: 50 value: 3.7331 delta: 0.0764 from: 10-12 to 21-12
+38: temporalUnitId: 51 value: 3.7350 delta: 0.0783 from: 17-12 to 28-12
+39: temporalUnitId: 41 value: 3.7408 delta: 0.0841 from: 08-10 to 19-10
+40: temporalUnitId: 42 value: 3.7411 delta: 0.0844 from: 15-10 to 26-10
+41: temporalUnitId: 49 value: 3.7413 delta: 0.0846 from: 03-12 to 14-12
+42: temporalUnitId: 40 value: 3.7455 delta: 0.0888 from: 01-10 to 12-10
+43: temporalUnitId: 28 value: 3.7525 delta: 0.0958 from: 09-07 to 20-07
+44: temporalUnitId: 27 value: 3.7536 delta: 0.0969 from: 02-07 to 13-07
+45: temporalUnitId: 43 value: 3.7541 delta: 0.0974 from: 22-10 to 02-11
+46: temporalUnitId: 48 value: 3.7573 delta: 0.1006 from: 26-11 to 07-12
+47: temporalUnitId: 44 value: 3.7629 delta: 0.1063 from: 29-10 to 09-11
+48: temporalUnitId: 52 value: 3.7632 delta: 0.1065 from: 24-12 to 31-12
+49: temporalUnitId: 39 value: 3.7665 delta: 0.1098 from: 24-09 to 05-10
+50: temporalUnitId: 45 value: 3.7719 delta: 0.1152 from: 05-11 to 16-11
+51: temporalUnitId: 47 value: 3.7778 delta: 0.1211 from: 19-11 to 30-11
+52: temporalUnitId: 46 value: 3.7816 delta: 0.1250 from: 12-11 to 23-11
+--------------------------------
+Title: groupByMonthOverTwoYears
+TemporalUnitName: MONTH_OVER_TWO_YEARS
+Exchange:EUR_TO_PLN_KEY
+0: temporalUnitId: 4 value: 4.2654 delta: -0.0306
+1: temporalUnitId: 2 value: 4.2667 delta: -0.0292
+2: temporalUnitId: 3 value: 4.2775 delta: -0.0184
+3: temporalUnitId: 8 value: 4.2872 delta: -0.0087
+4: temporalUnitId: 1 value: 4.2959 delta: 0.0000
+5: temporalUnitId: 5 value: 4.2966 delta: 0.0007
+6: temporalUnitId: 7 value: 4.2971 delta: 0.0012
+7: temporalUnitId: 6 value: 4.3011 delta: 0.0052
+8: temporalUnitId: 10 value: 4.3032 delta: 0.0072
+9: temporalUnitId: 14 value: 4.3035 delta: 0.0076
+10: temporalUnitId: 9 value: 4.3083 delta: 0.0124
+11: temporalUnitId: 16 value: 4.3103 delta: 0.0144
+12: temporalUnitId: 13 value: 4.3128 delta: 0.0169
+13: temporalUnitId: 11 value: 4.3140 delta: 0.0180
+14: temporalUnitId: 12 value: 4.3148 delta: 0.0189
+15: temporalUnitId: 17 value: 4.3331 delta: 0.0372
+16: temporalUnitId: 18 value: 4.3371 delta: 0.0412
+17: temporalUnitId: 15 value: 4.3421 delta: 0.0462
+18: temporalUnitId: 20 value: 4.3528 delta: 0.0569
+19: temporalUnitId: 19 value: 4.3529 delta: 0.0570
+20: temporalUnitId: 21 value: 4.3688 delta: 0.0729
+21: temporalUnitId: 22 value: 4.3711 delta: 0.0752
+22: temporalUnitId: 23 value: 4.3720 delta: 0.0761
+23: temporalUnitId: 24 value: 4.3721 delta: 0.0761
+Exchange:USD_TO_PLN_KEY
+0: temporalUnitId: 2 value: 3.5848 delta: -0.0261
+1: temporalUnitId: 4 value: 3.6059 delta: -0.0050
+2: temporalUnitId: 8 value: 3.6073 delta: -0.0036
+3: temporalUnitId: 1 value: 3.6109 delta: 0.0000
+4: temporalUnitId: 9 value: 3.6192 delta: 0.0083
+5: temporalUnitId: 3 value: 3.6248 delta: 0.0139
+6: temporalUnitId: 10 value: 3.6261 delta: 0.0151
+7: temporalUnitId: 5 value: 3.6298 delta: 0.0189
+8: temporalUnitId: 6 value: 3.6302 delta: 0.0192
+9: temporalUnitId: 7 value: 3.6367 delta: 0.0258
+10: temporalUnitId: 14 value: 3.6712 delta: 0.0603
+11: temporalUnitId: 13 value: 3.6739 delta: 0.0630
+12: temporalUnitId: 12 value: 3.6797 delta: 0.0687
+13: temporalUnitId: 11 value: 3.6892 delta: 0.0783
+14: temporalUnitId: 16 value: 3.7132 delta: 0.1023
+15: temporalUnitId: 18 value: 3.7288 delta: 0.1178
+16: temporalUnitId: 17 value: 3.7363 delta: 0.1253
+17: temporalUnitId: 15 value: 3.7476 delta: 0.1366
+18: temporalUnitId: 20 value: 3.7492 delta: 0.1383
+19: temporalUnitId: 19 value: 3.7589 delta: 0.1479
+20: temporalUnitId: 21 value: 3.7764 delta: 0.1654
+21: temporalUnitId: 22 value: 3.7941 delta: 0.1832
+22: temporalUnitId: 24 value: 3.8056 delta: 0.1947
+23: temporalUnitId: 23 value: 3.8315 delta: 0.2206
+--------------
+END
