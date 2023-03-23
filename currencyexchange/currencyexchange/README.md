@@ -66,8 +66,8 @@ European Central Bank provides data in XML format in daily intervals going as fa
 - For EUR best periods would be weeks 5 to 9 (03.02 - 03.03) and weeks 13 to 16 (01.04 - 22.04). If we want to be more relaxed we could even expand the second period to weeks 10 to 16 (08.03 -  22.04). This is quite interesting as on month-to-month analysis January did better than March.
 - For USD best periods would be weeks 1 to 10 (05.01 - 08.03) and weeks 14 to 18 (08.04 - 05.05). This is consistent with the month-to-month analysis
 - For finding the best periods I didn't use any scientific measurement but was looking at excel results and tried to find a decent consistent best period. The result is ad-hoc.
-- For the rest of the year the graph is very chaotic. This may be due to the *rank* operator. We are losing information by how much values within the week change. It may be so that the spread of currency exchange is not as drastic as this graph shows to be.
-- The chaotic nature of graph in later weeks of the year could be a result of my flawed definition of 'year of the week'. Each 'week of the year' tend to get longer as year progresses. Week 1 has 6 days while the last week, week 52, has 11 days. However even this should not cause such chaotic behavior. By days we mean dates that has been assigned to a n<sup>th</sup> week over analysis period (10 years).
+- For the rest of the year the graph is very chaotic. This may be due to the *rank* operator. We are losing information by how much values between the weeks change. It may be so that the spread of currency exchange is not as drastic as this graph shows to be.
+- The chaotic nature of graph in later weeks of the year could be a result of my flawed definition of 'year of the week'. Each 'week of the year' tend to get longer as year progresses. Week 1 has 6 days while the last week, week 52, has 11 days. However even this should not cause such chaotic behavior. By days in a week I mean dates that has been assigned to a n<sup>th</sup> week over analysis period (10 years).
 - Another explanation for the jumping points on the week graph may be a mixture of using the *rank* operator and strong downward trend of PLN value. There will be much less value distribution around the best times to buy than in other times of the year as the dataset is limited by the start of year. Hence much more concise rank values at the start of the year.         
 </details>
 
@@ -95,8 +95,8 @@ The chart shows EUR/PLN exchange rate for years in years 2017-2022 together with
 
 This chart is a visual proof of the downfall trend of the Polish economy. See how each year the PLN is losing value towards EUR and how the exchange of the following year is the above exchange rate of the previous year. As an alternative, you can just take a look at the linear graph provided by [ECB](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-pln.en.html)
 
-<img src="https://user-images.githubusercontent.com/16683374/226143963-13e4e038-52b5-4673-9660-7e3e050462ac.png" alt="Eur-to-pln chart" width="50%" height="50%"/>
-<img src="https://user-images.githubusercontent.com/16683374/226143924-89433b9d-4e54-4bfd-bbfc-6239672b3a42.png" alt="Eur-to-pln chart linear chart for year 2017-2022" width="50%" height="50%"/>
+<img src="https://user-images.githubusercontent.com/16683374/227197210-9be29e40-3fd0-4588-bbfa-b81bcbd177c1.png" alt="Eur-to-pln chart linear chart for year 2017-2022" width="50%" height="50%"/>
+
 <img src="https://user-images.githubusercontent.com/16683374/226143964-49ca1b0a-77c1-4841-b9c5-9b2084a0c671.png" alt="Usd-to-pln chart" width="50%" height="50%"/>
 
 
