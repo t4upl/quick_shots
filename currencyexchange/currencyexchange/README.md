@@ -15,7 +15,7 @@ List of content
 <details>
 <summary>Word of warning</summary>
 
-Don't use this project as financial advice. If you do use the following analysis for your financial decision, you are doing this on your own responsibility. I am in no way responsible for the outcome.
+Don't use results of this project as financial advice. If you do use the following analysis for your financial decision, you are doing this on your own responsibility. I am in no way responsible for the outcome.
 
 As I started going through the results I started to wonder if I made a good choice using data from 10 year period. Maybe 5 years would be more up-to-date.
 </details>
@@ -30,14 +30,14 @@ This analysis is written from point of view of a Polish person trying to buy EUR
 
 As a source of data I have used data available from the European Central Bank [data](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-pln.en.html)
 
-European Central Bank provides data in XML format in daily intervals going as far back as 1999-01-04. This was important to me as I wanted to find out which day of the week is the best for an exchange.
+European Central Bank provides data in XML format in daily intervals going as far back as 1999-01-04. Daily intervals were important to me as I wanted to find out which day of the week is the best for an exchange.
 </details>
 
 ## Main takeaways
 <details>
 <summary>Main takeaways</summary>
 
-1. PLN is strongly losing value over time. As a general rule if you are waiting for an exchange you are losing money.
+1. PLN is strongly losing value over time. As a general rule if you are waiting for an exchange, you are losing money.
 2. Exchange rate fluctuations don't make up for the general trend of PLN losing value. The sooner you exchange the better.
 3. On a month-to-month basis:
 -  February - is the best month to buy EUR/USD followed by April and January
@@ -55,11 +55,11 @@ European Central Bank provides data in XML format in daily intervals going as fa
 <details>
 <summary>Deeper analysis</summary>
 
-1. Over the years 2017-2022 PLN lost 6.09% value to EUR and 4.09% value to EUR. Based on average monthly values fluctuations of value are 1.33% for EUR and 4.09% for USD. This means that for EUR with a such strong downward trend in comparison to currency value fluctuations, there is little room to try to optimize the best time to buy. The strategy to buy *as soon as possible* even if not the best may be very close to optimal. There is more wiggle room for currency exchange optimization for USD. It is important to note that fluctuations are between monthly averages so if we took averages per day the fluctuations value would have been bigger. At the same time, I don't believe finding the best time to buy on a day-to-day basis is possible for an individual person.
+1. Over the years 2017-2022 PLN lost 6.09% value to EUR and 4.09% value to USD. Based on monthly average value fluctuations are 1.33% for EUR and 4.09% for USD. This means that for EUR there is little room to trying to optimize the best time to buy. This is due to very strong downward trend in comparison to currency value fluctuations.  The strategy to buy *as soon as possible* even if not the best may be very close to optimal. There is more wiggle room for currency exchange optimization for USD. It is important to note that fluctuations are between monthly averages so if we took averages per day the fluctuations value would have been bigger. At the same time I don't believe finding best time to buy on day-to-day basis is within capacity of an individual person.
 2. On a month-to-month basis:
 - February, April, and January are the best times to buy. The order depends on the currency. For EUR it is February, April and January. For USD it is February, January, April. 
 - I don't have a conclusive result for March. On month-to-month yearly analysis it did well but when we take a look at two-year month-to-month analysis results are mixed. For EUR March was a good time to buy in the first year but did poorly in the second year. For USD it did poorly in both years. This clashes with month-to-month for one-year period analysis where March was 4th best month to buy foreign currency. As a general rule, I would try to wait till April. 
-- On the practical side it is astonishing how bad times to exchange are in November and December. For EUR you can wait till any of the best months: January, February (best) or April and be better. For USD better choices would be January or February (best). It is amazing that despite EUR going everything against it there is a possibility to come up with some form of currency exchange strategy. This is probably because of the close time proximity of the worst and best time to buy.
+- On the practical side it is astonishing how bad times to exchange are in November and December. For EUR you can wait till any of the best months: January, February (best) or April and be better. For USD better choices would be January or February (best). It is amazing that despite EUR going everything against it, there is still possibility to come up with some form of currency exchange strategy. This is probably because of the close time proximity of the worst and best time to buy.
 3. Best day of the week to buy is Monday. Friday is ok. I have no idea why this happens this way.
 4. Week-to-week analysis. Here I was trying not only the best month but week or period to buy USD or EUR.
 - To find the best period we should analyze the week-to-week graph. It shows weeks ranked by the best time to buy. To find the best period we should look for a consistent group of weeks near the left side of the graph i.e. they have the highest rank. By a consistent group of weeks I mean there are little or no spaces between weeks e.g. 15,14,16.
@@ -67,6 +67,8 @@ European Central Bank provides data in XML format in daily intervals going as fa
 - For USD best periods would be weeks 1 to 10 (05.01 - 08.03) and weeks 14 to 18 (08.04 - 05.05). This is consistent with the month-to-month analysis
 - For finding the best periods I didn't use any scientific measurement but was looking at excel results and tried to find a decent consistent best period. The result is ad-hoc.
 - For the rest of the year the graph is very chaotic. This may be due to the *rank* operator. We are losing information by how much values within the week change. It may be so that the spread of currency exchange is not as drastic as this graph shows to be.
+- The chaotic nature of graph in later weeks of the year could be a result of my flawed definition of 'year of the week'. Each 'week of the year' tend to get longer as year progresses. Week 1 has 6 days while the last week, week 52, has 11 days. However even this should not cause such chaotic behavior. By days we mean dates that has been assigned to a n<sup>th</sup> week over analysis period (10 years).
+- Another explanation for the jumping points on the week graph may be a mixture of using the *rank* operator and strong downward trend of PLN value. There will be much less value distribution around the best times to buy than in other times of the year as the dataset is limited by the start of year. Hence much more concise rank values at the start of the year.         
 </details>
 
 ## Analysis made
